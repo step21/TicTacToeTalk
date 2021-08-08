@@ -25,7 +25,7 @@
     :- mode(available_move(+integer), zero_or_one).
     :- mode(available_move(-integer), zero_or_more).
     :- info(available_move/1,
-        [ comment is 'The number is available for a move to be played'
+        [ comment is 'The number is available for a move to be played by the player'
         , argnames is ['GridNumber']
         ]).
     available_move(N) :-
