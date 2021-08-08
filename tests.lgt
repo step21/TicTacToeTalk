@@ -5,7 +5,7 @@
 		version is 1:2:0,
 		author is 'Paul Brown',
 		date is 2019-11-06,
-		comment is 'Unit tests for tictactoe.'
+		comment is 'Unit testing for tictactoe.'
 	]).
 
 	:- uses(integer, [
